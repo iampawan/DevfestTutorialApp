@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class Devfest{
+class Devfest {
   static const String app_name = "Devfest";
   static const String app_version = "Version 1.0.0";
   static const int app_version_code = 1;
@@ -13,4 +13,5 @@ class Devfest{
 
   //* Preferences
   static SharedPreferences prefs;
+  static const String darkModePref = "darkModePref";
 }
