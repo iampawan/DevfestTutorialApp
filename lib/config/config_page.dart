@@ -1,6 +1,8 @@
 import 'package:devfest_demo/agenda/agenda_page.dart';
 import 'package:devfest_demo/home/home_page.dart';
 import 'package:devfest_demo/speakers/speaker_page.dart';
+import 'package:devfest_demo/sponsors/sponsor_page.dart';
+import 'package:devfest_demo/team/team_page.dart';
 import 'package:devfest_demo/utils/devfest.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -60,6 +62,8 @@ class _ConfigPageState extends State<ConfigPage> {
               HomePage.routeName: (context) => HomePage(),
               AgendaPage.routeName: (context) => AgendaPage(),
               SpeakersPage.routeName: (context) => SpeakersPage(),
+              TeamPage.routeName: (context) => TeamPage(),
+              SponsorPage.routeName: (context) => SponsorPage(),
             },
           );
         },
